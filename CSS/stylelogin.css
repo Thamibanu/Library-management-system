@@ -1,0 +1,74 @@
+body{
+	margin: 0 auto;
+	background-image: url(../img/img1.);
+	background-size: 100% 125%;
+	background-repeat: no-repeat;
+	background-color: #0000;
+}
+.container{
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-image: white;
+	background-size: 100% 100%;
+	background-color: #CFECEC;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.loginPage{
+	border: none;
+	padding-top: 100px;
+
+}
+input[type="text"],input[type="password"],input[type="email"]{
+	width: 300px;
+	height: 45px;
+	font-size: 18px;
+	border: none;
+	margin-bottom: 20px;
+	border-radius: 4px;
+	background-color: #fff;
+	padding-left: 40px;
+}
+.formInput::before{
+	content: none;
+	padding: absolute;
+	font-family: FontAwesome;
+	padding-left: 5px;
+	color: #9B59B6;
+	padding-top: 7px;
+	font-size: 35px;
+}
+.btnLogin{
+	padding: 15px 30px;
+	cursor: pointer;
+	color:  #000000;
+	border-radius: 4px;
+	border: none;
+	font-size: 18px;
+	background-color: #98AFC7;
+	border-bottom: 4px solid #98AFC7;
+	margin-bottom: 10px;
+}
+.back,.backLink{
+	color: #0000FF;
+}
+.errorMsg{
+	border: none;
+	float: center;
+	text-align: center;
+	padding: 5px 14px;
+	margin-top: 20px;
+	font-size: 18px;
+	background: #ff9999;
+	color: red;
+}
+.headtext{
+	font-size:36px;
+	text-align:right;
+	text-height:30px;
+   	position: left;
+   	top: 80px;
+	font-family:"Georgia";                   
+}

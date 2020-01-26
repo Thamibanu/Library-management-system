@@ -1,0 +1,37 @@
+h1{font-family: "Times New Roman", Times, serif;
+    font-size: 40px; color: #0000FF;}
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 30px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+	font-family: "Times New Roman", Times, serif;
+}
+button:hover {
+  background-color: #79BAEC;
+  color: white;
+}
+a {
+    color:#0000FF;
+	text-decoration:none;
+}
+
+body {
+	background-color: #ffffff;
+}
+#footer{
+	height:100px;
+	margin:auto;
+	background-color: #0f0f0f;
+	margin-bottom:50px;
+	width:85%;
+	text-align:center;
+	font-family:"Arial";
+	font-size:20px;
+	line-height: 100px;
+	
+}

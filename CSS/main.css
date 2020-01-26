@@ -1,0 +1,133 @@
+body{font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+font-size:14px;
+}
+
+*{margin: 0;}
+body
+{
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 14px;
+	background:#ffffff;
+}
+header
+{
+	background: #eee;
+	overflow: auto;
+	padding: 10px;
+}
+			
+	header .appName
+	{
+		float: left;
+	}
+	header .loggedin
+	{
+		float: right;
+	}		
+
+.login
+{
+	width: 400px;
+	margin: 200px auto;
+	background-color: #8EEBEC;
+}
+.error
+{
+	background: red;
+	color: white;
+	padding: 10px;
+}
+.info
+{
+	background: green;
+	color: white;
+	padding: 10px;
+}
+
+P
+{margin-bottom: 15px
+}
+
+input
+{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	box-sizing:border-box;
+	font-size: 14px;
+	}
+button
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:border-box;	
+}
+
+main
+{
+	width: 1000px;
+	margin: 30px auto;
+}
+
+main h1
+{
+	margin-bottom: 20px;
+	font-size: 40px;
+	color:0000FF;
+}
+
+main h1 span
+{
+	font-size: 20px;
+}
+
+table.master-List
+{
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table.master-List th
+{
+	background: #8EEBEC;
+	text-align: left;
+}
+
+table.master-List th, table.master-List td
+{
+	padding: 10px;
+	border-bottom: 3px solid #aaa;
+	
+}
+form.memberForm label
+{
+	width: 10%;
+	float: left;
+}
+form.memberForm input
+{
+	width: 50%;
+	
+}
+form.memberForm button
+{
+	width: 200px;
+	
+}
+.errmsg
+{
+	margin: 20px 0;
+}
+.errorMsg{
+	border: none;
+	float: center;
+	text-align: center;
+	padding: 5px 14px;
+	margin-top: 20px;
+	font-size: 18px;
+	background: #ff9999;
+	color: red;
+}
